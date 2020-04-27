@@ -37,3 +37,32 @@ html {
     border-radius: 12px;
     padding: 20px;
 }
+.button{
+    background-color: var(--green);
+    width: 180px;
+    height: 50px;
+    padding: 15px 20px 30px 20px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.button__header{
+    background-color: var(--gray);
+    width: 180px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.button__hiring{
+    background-color: var(--green);
+    color: var(--white);
+    width: 40px;
+    font-weight: 600;
+    font-size: 10px;
+    padding: 1.5px;
+    text-align: center;
+    border-radius: 4px;
+}
