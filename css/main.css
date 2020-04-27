@@ -1,0 +1,29 @@
+:root{
+    --font-sans-serif: Gill Sans MT, sans-serif;
+    --white: #fff;
+    --lt-gray: #f4f4f4;
+    --gray: #c9d5d6;
+    --green: #6bbe96;
+    --dk-green: #6eaf86;
+    --teal: #083741;
+
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body{
+      font-family: Gill Sans MT, sans-serif;
+      font-weight: 300;
+      font-size: 14px;
+      color: var(--teal);
+      line-height: 1.667;
+  }
+
+  h1, h2 {
+      font-size: 2rem;
+  }
