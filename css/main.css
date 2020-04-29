@@ -68,7 +68,6 @@ html {
     border-radius: 4px;
 }
 
-}
 /* Dropdown Button */
 .dropbtn {  
     padding: 16px;
@@ -88,18 +87,16 @@ html {
     display: none;
     position: absolute;
     border-radius: 8px;   
-    background-color: var(--white);
-    border: 2px solid blue; 
+    background-color: var(--white); 
     align-content: center;
     justify-content: center;
-    padding: 30px;
+    padding: 35px;
     z-index: 1;
   }
   
   /* Links inside the dropdown */
   .dropdown-content a {
     color: var(--teal);
-    border: 2px solid red;
     width: 325px;
     border-radius: 8px;
     list-style-type: none;
@@ -125,7 +122,26 @@ html {
 
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {background-color: rgba(107,190,150,.2);}
+
+  .dropdown-content :after {
+      content: "";
+      position: absolute;
+      top: -18px;
+      left: 7%;
+      width: 0;
+      height: 0;
+      border: 18px solid transparent;
+      border-bottom-color: var(--white);
+      border-top: 0;
+      margin-left: 35px;
+      margin-right: 35px;
+
+  }
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
 
+
+.menu-section{
+    background-color: var(--lt-gray);
+}

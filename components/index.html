@@ -7,6 +7,7 @@
     <title>Components for Involvio Case Study</title>
     <link href="css/normalize.css" rel="stylesheet" />
     <link rel="stylesheet" href="../css/main.css">
+    <script src="https://kit.fontawesome.com/5c01175067.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -59,9 +60,10 @@
         <a ref="#!">Hiring!</a>
     </div>
 
-    <nav class="dropdown">
-        <h3>Products</h3>
-        <div class="dropdown-card">
+    <div class="menu-section">
+
+        <nav class="dropdown">
+            <h3>Products <i class="fas fa-angle-down"></i></h3>
             <div class="dropdown-content">
                 <a href="#"><img class="dropdown__img"
                         src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb96a6a1f66e008a14dbe4a_orientation_icon.svg"
@@ -108,15 +110,40 @@
                     </div>
                 </a>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-    <article class="component">
-        <h3>Header: Drop Down Menus</h3>
-        <img srcset="img/header-nav-bar__products.png 2x" src="img/header-nav-bar__products.png" alt="Products Menu">
-        <img srcset="img/header-nav-bar__products-active.png 2x" src="img/header-nav-bar__products-active.png"
-            alt="Products Active Menu">
-    </article>
+        <nav class="dropdown">
+            <h3>Resources <i class="fas fa-angle-down"></i></h3>
+            <div class="dropdown-content">
+                <a href="#"><img class="dropdown__img"
+                        src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb7a2877fa9d20a0d5f5f3a_compliance.svg"
+                        alt="A checked Box">
+                    <div class="dropdown__text">
+                        <h4>Security</h4>
+                        <p>Enterprise-grade security</p>
+                    </div>
+                </a>
+
+                <a href="#"><img class="dropdown__img"
+                        src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb7a288afb714c66e34ebe9_departments.svg"
+                        alt="9 dots">
+                    <div class="dropdown__text">
+                        <h4>Blog</h4>
+                        <p>Actionable insights on higher ed tech</p>
+                    </div>
+                </a>
+
+            </div>
+        </nav>
+
+        <article class="component">
+            <h3>Header: Drop Down Menus</h3>
+            <img srcset="img/header-nav-bar__products.png 2x" src="img/header-nav-bar__products.png"
+                alt="Products Menu">
+            <img srcset="img/header-nav-bar__products-active.png 2x" src="img/header-nav-bar__products-active.png"
+                alt="Products Active Menu">
+        </article>
+    </div>
 </body>
 
 </html>
