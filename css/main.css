@@ -21,14 +21,22 @@ html {
     font-family: 'Work Sans', sans-serif;
       font-weight: 300;
       letter-spacing: -.02rem;
-      font-size: 14px;
+      font-size: 12px;
       color: var(--teal);
       line-height: 1.667;
+      text-align: center;
+      margin: 0 auto;
   }
 
   h1, h2 {
       font-size: 2rem;
       font-weight: bold;
+      margin: 0;
+  }
+
+  h3 {
+      font-size: 12px;
+      font-weight: 500;
   }
 
   a {
@@ -66,7 +74,7 @@ html {
 
 .button__header{
     background-color: var(--gray);
-    width: 180px;
+    width: 150px;
     padding: 10px;
     border-radius: 4px;
     text-align: center;
@@ -86,8 +94,8 @@ html {
 
 /* Dropdown Button */
 .dropbtn {  
-    padding: 16px;
-    font-size: 16px;
+    padding: 30px;
+    font-size: 14px;
     border: none;
   }
   
@@ -96,6 +104,7 @@ html {
   .dropdown {
     position: relative;
     display: inline-block;
+    margin: 0 20px;
   }
   
   /* Dropdown Content (Hidden by Default) */
@@ -172,4 +181,32 @@ html {
     top: -80px;
     z-index: 1;
 
+}
+
+.header__container{
+    max-width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.header__container a{
+    color: var(--teal);
+    font-weight: 500;
+    padding-right: 20px;
+}
+.header__container .dropdown__div{
+    order: 1;
+}
+
+.header__container h1{
+    align-self: flex-end;
+    order: 2;
+}
+
+.header__container .header__admin-demo{
+    display: flex;
+    align-items: center;
+    order: 3;
 }
