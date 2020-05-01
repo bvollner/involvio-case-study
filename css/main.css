@@ -3,6 +3,7 @@
     --white: #fff;
     --lt-gray: #f4f4f4;
     --gray: #c9d5d6;
+    --dk-gray:#6d6f7c;
     --green: #6bbe96;
     --dk-green: #6eaf86;
     --lt-teal: #789097;
@@ -204,7 +205,7 @@ html {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    padding: 15px;
+    padding: 15px 5px 3px 5px;
 }
 
 .header__container .admin-login{
@@ -237,28 +238,32 @@ html {
 }
 
 /* footer css */
-.footer__top-container{
+.footer__container{
     max-width: 55rem;
     margin: 4rem auto;
     text-align: left;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 3.5rem;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
 }
 .footer__text p{
-    margin: .25rem 2.25rem 0 0;
+    margin: .25rem 2.25rem 1rem 0;
     padding: 0;
-    min-width: 250px;
+    width: 250px;
     font-size: 12px;
     line-height: 1.67;
     color: var(--lt-teal)
 }
-
+.footer__lists{
+    display:flex;
+    align-items: space-between;
+}
 .lists{
-    margin-right: 3.5rem;
+    margin-right: 6rem;
 }
 .lists h3{
     font-size: 14px;
+    font-weight: 600;
 }
 .lists li{
     line-height: 2.5;
@@ -266,13 +271,49 @@ html {
 .lists a{
     color: var(--teal)
 }
+/* footer__band */
+ .footer__band{
+    background-color: var(--lt-gray);
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-@media (max-width: 50rem) { 
+.flat-list {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .flat-list > * {
+    flex: 1;
+    padding-right: 1rem;
+  }
+  
+  .flat-list:last-child {
+    padding-right: 0;
+  }
+  
+  .footer__nav a{
+    color: var(--teal);
+    display: inline-block;
+    padding: 0.5rem;
+  }
+
+.social-media a {
+    color: var(--dk-gray);
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+
+@media (max-width: 60rem) { 
     body{
     border: solid red 12px;}
-    footer__top-container{
-    grid-template-columns: 3fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    .footer__top-container {
+    max-width: 35rem;
+    display: block;}
     }
     
-}
+
