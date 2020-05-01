@@ -246,7 +246,10 @@ html {
     margin: 0 auto;
     
 }
-
+.footer__top{
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+}
 .footer__grid{
     text-align: left;
     display: grid;
@@ -273,7 +276,7 @@ html {
     font-weight: 600;
 }
 .lists li{
-    line-height: 2.5;
+    line-height: 1.25;
 }
 .lists a{
     color: var(--teal)
@@ -281,6 +284,7 @@ html {
 /* footer__band */
 .footer__bottom{
     background-color: var(--lt-gray);
+    border-bottom: solid .25px var(--gray);
     padding: 0;
     margin: 0;
 }
@@ -291,7 +295,6 @@ html {
     align-items: center;
   }
 
-} 
 .flat-list {
     display: flex;
     list-style: none;
@@ -309,17 +312,30 @@ html {
   
   .footer__nav a, li{
     color: var(--teal);
+    font-weight: 400;
     display: inline-block;
-    padding: 0.5rem;
+    padding: .5rem 0.25rem;
   }
 
 .social-media a, li {
     color: var(--dk-gray);
   display: inline-block;
-  padding: 0.5rem;
+  padding: .5rem 0.25rem;
 }
-
-
+/*footer-legal*/
+.footer__legal p{
+    font-size: 11px;
+    padding: 0.5rem;
+    text-align: left;
+    line-height: 1.67;
+    color: var(--lt-teal)
+}
+.footer__legal p:nth-of-type(1){
+    padding-top: 30px;
+}
+.footer__legal p:nth-of-type(4){
+    padding-bottom: 30px;
+}
 @media (max-width: 60rem) { 
     body{
     border: solid red 12px;}
