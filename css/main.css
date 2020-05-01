@@ -43,6 +43,15 @@ html {
       text-decoration: none;
   }
 
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+  
+
+/* Specific functions */
+
   .aside {
       background-color: var(--green);
       color: var(--white);
@@ -64,9 +73,11 @@ html {
 }
 .button{
     background-color: var(--green);
+    color: var(--teal);
+    font-size: 14px;
     width: 180px;
     height: 50px;
-    padding: 15px 20px 30px 20px;
+    padding: 15px 20px;
     border-radius: 4px;
     text-align: center;
     font-weight: 600;
@@ -79,6 +90,7 @@ html {
     border-radius: 4px;
     text-align: center;
     font-weight: 600;
+    margin-right: 20px;
 }
 
 .button__hiring{
@@ -93,6 +105,7 @@ html {
     border-radius: 4px;
 }
 
+/* Dropdown Menu */
 /* Dropdown Button */
 .dropbtn {  
     padding: 30px;
@@ -112,10 +125,9 @@ html {
   .dropdown-content {
     display: none;
     position: absolute;
-    border-radius: 8px;   
-    background-color: var(--white); 
-    align-content: center;
-    justify-content: center;
+    border-radius: 8px;  
+    text-align: left; 
+    background-color:var(--white); 
     padding: 35px;
     z-index: 1;
   }
@@ -129,10 +141,7 @@ html {
     padding: 10px 25px 10px 10px;
     list-style: none;
     display: flex;
-    align-content: center;
   }
-
-
 
   .dropdown__text h4, p{
       margin: 0;
@@ -171,7 +180,7 @@ html {
     background-color: var(--lt-gray);
 }
 
-/* The space on logo added for clarity and the position of the hiring button will have to change for the final project. */
+/* logo with button not-finalized */
 .logo{
     padding: 20px;
 }
@@ -185,6 +194,7 @@ html {
 }
 /* header css */
 .header{
+    background-color: var(--white);
     position: -webkit-sticky;
     position: sticky;
     top: 0; 
@@ -224,4 +234,45 @@ html {
     position: absolute;
   top: -10%;
   left: 85%;
+}
+
+/* footer css */
+.footer__top-container{
+    max-width: 55rem;
+    margin: 4rem auto;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3.5rem;
+}
+.footer__text p{
+    margin: .25rem 2.25rem 0 0;
+    padding: 0;
+    min-width: 250px;
+    font-size: 12px;
+    line-height: 1.67;
+    color: var(--lt-teal)
+}
+
+.lists{
+    margin-right: 3.5rem;
+}
+.lists h3{
+    font-size: 14px;
+}
+.lists li{
+    line-height: 2.5;
+}
+.lists a{
+    color: var(--teal)
+}
+
+@media (max-width: 50rem) { 
+    body{
+    border: solid red 12px;}
+    footer__top-container{
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    }
+    
 }
