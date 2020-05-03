@@ -12,253 +12,294 @@
 </head>
 
 <body>
-    <a href="#!">
-        <aside class="aside">Learn more about the new Involvio Remote Campus <i class="fas fa-long-arrow-alt-right"></i>
-        </aside>
-    </a>
-
-    <header class="header">
-        <div class="header__container">
-            <div class="header__logo">
-                <h1><img class="main_logo"
-                        src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5b7e685824b7d2b4b847e0af_top-logo.svg"
-                        alt="dark_logo"></h1>
-                <button class="button__hiring">
-                    <a ref="#!">Hiring!</a>
-                </button>
-            </div>
-
-            <div class="dropdown__div">
-                <nav class="dropdown">
-                    <h3>Products <i class="fas fa-angle-down"></i></h3>
-                    <div class="dropdown-content">
-                        <a href="#"><img class="dropdown__img"
-                                src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb96a6a1f66e008a14dbe4a_orientation_icon.svg"
-                                alt="compass">
-                            <div class="dropdown__text">
-                                <h4>OrientationKit</h4>
-                                <p>Tools to onboard your new students</p>
-                            </div>
-                        </a>
-
-                        <a href="#"><img class="dropdown__img"
-                                src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb96a6b1f66e0e8f24dbe4b_campus_icon.svg"
-                                alt="weird green lightning bolt">
-                            <div class="dropdown__text">
-                                <h4>CampusKit</h4>
-                                <p>Put your campus in your students' hands</p>
-                            </div>
-                        </a>
-
-                        <a href="#"><img class="dropdown__img"
-                                src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb96a6b70d87af74007c5e4_attendance_icon.svg"
-                                alt="plus sign, apparently that means attendance">
-                            <div class="dropdown__text">
-                                <h4>AttendanceKit</h4>
-                                <p>Simple, powerful, and automated attendance tracking</p>
-                            </div>
-                        </a>
-
-                        <a href="#"><img class="dropdown__img"
-                                src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb96a6b70d87a04f207c5e6_retain_icon.svg"
-                                alt="person icon">
-                            <div class="dropdown__text">
-                                <h4>RetainAI</h4>
-                                <p>Modern student success tools powered by AI</p>
-                            </div>
-                        </a>
-
-                        <a href="#"><img class="dropdown__img"
-                                src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5da5376d1dba53d73d24a016_Frame%203.svg"
-                                alt="a mighty red shield">
-                            <div class="dropdown__text">
-                                <h4>SafetyKit</h4>
-                                <p>Deliver safety and security both on and off campus</p>
-                            </div>
-                        </a>
-                    </div>
-                </nav>
-
-                <nav class="dropdown">
-                    <h3>Resources <i class="fas fa-angle-down"></i></h3>
-                    <div class="dropdown-content">
-                        <a href="#"><img class="dropdown__img"
-                                src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb7a2877fa9d20a0d5f5f3a_compliance.svg"
-                                alt="A checked Box">
-                            <div class="dropdown__text">
-                                <h4>Security</h4>
-                                <p>Enterprise-grade security</p>
-                            </div>
-                        </a>
-
-                        <a href="#"><img class="dropdown__img"
-                                src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb7a288afb714c66e34ebe9_departments.svg"
-                                alt="9 dots">
-                            <div class="dropdown__text">
-                                <h4>Blog</h4>
-                                <p>Actionable insights on higher ed tech</p>
-                            </div>
-                        </a>
-
-                    </div>
-                </nav>
-            </div>
-
-            <div class="header__admin-demo">
-                <a class="admin-login" href="#!">Admin Login</a>
-
-                <a ref="#!">
-                    <button class="button__header">
-
-                        Get a demo
-
-                    </button>
-                </a>
-
-            </div>
-        </div>
-    </header>
-
+    <h1> Web Developments: A Case Study of Components</h1>
+    <p>Involvio.com</p>
     <h2>Case Study Components</h2>
-    <h2>Typography Defaults</h2>
 
-    <article class="component">
-        <h3 class="component__name">Body with Heading</h3>
-        <img srcset="img/Hero__text.png 2x" src="img/Hero__text.png" alt="Hero Text">
+    <!--Typography-->
+    <h2 class="component__title">General Typography</h2>
+    <h3 class="component__name">Body(p) with Heading(h2)</h3>
+    <p class="component__text"><em>*** The company logo is used in place of h1 ***</em></p>
+    <article class="component__img">
+        <img class="component__img" srcset="img/Hero__text.png 2x" src="img/Hero__text.png" alt="Hero Text">
     </article>
 
     <div class="component__code">
-        <h2 class="component__name">Transform student experience.</h2>
-        <p>Involvio is designed with your students in mind. Communicate with a personal touch, and deliver help and
-            resources where and when your students need it.</p>
+        <div class="hero__text">
+            <h2 class=>Transform student experience.</h2>
+            <p>Involvio is designed with your students in mind. Communicate with a personal touch, and deliver help and
+                resources where and when your students need it.</p>
+        </div>
     </div>
 
-    <article class="component">
-        <h3> Involvio: Card Study</h3>
-        <img srcset="img/homepage-card.png 2x" src="img/homepage-card.png" alt="card">
+    <h2 class="component__name">Dropdown Menu Heading and Bolded Entries(h3)</h2>
+    <article class="component__img">
+        <img srcset="img/header__dropdown.png 2x" src="img/header__dropdown.png" alt="Products">
     </article>
 
-    <div class="card">
-        <img srcset="img/compass.png 2x" src="img/compass.png" alt="compass">
-        <h3>OrientationKit</h3>
-        <p>Start your students out strong with comprehensive onboarding tools.</p>
-    </div>
-
-    <article class="component">
-        <h3> Involvio: Buttons</h3>
-        <img srcset="img/Hero__button.png 2x" src="img/Hero__button.png" alt="demo button">
-        <img srcset="img/header_demo-button.png 2x" src="img/header_demo-button.png" alt="header demo button">
-        <img srcset="img/header__heading-hiring-link.png 2x" src="img/header__heading-hiring-link.png"
-            alt="logo with hiring link">
+    <article class="component__code">
+        <h3>Products <i class="fas fa-angle-down"></i></h3>
+        <h3>Resources <i class="fas fa-angle-down"></i></h3>
     </article>
 
-    <button class="button">
-        <a ref="#!">
-            Get a demo
-        </a>
-    </button>
+    <!--Buttons-->
+    <h2 class="component__title">Involvio: Buttons</h2>
+    <h3 class="component__name">Buttons</h3>
+    <article class="component">
+        <div class="component__img">
+            <img srcset="img/Hero__button.png 2x" src="img/Hero__button.png" alt="demo button">
+            <img srcset="img/header_demo-button.png 2x" src="img/header_demo-button.png" alt="header demo button">
+            <img srcset="img/header__heading-hiring-link.png 2x" src="img/header__heading-hiring-link.png"
+                alt="logo with hiring link">
+        </div>
 
-    <a ref="#!">
-        <button class="button__header">
-            Get a demo
-        </button>
-    </a>
+        <div class="component__code">
+            <button class="button">
+                <a ref="#!">
+                    Get a demo
+                </a>
+            </button>
 
-    <div class="logo-hiring">
-        <a href="#!">
-            <img class="logo"
-                src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5b7e685824b7d2b4b847e0af_top-logo.svg"
-                alt="dark involvio logo">
-        </a>
-        <button class="button__hiring">
-            <a ref="#!">Hiring!</a>
-        </button>
+            <a ref="#!">
+                <button class="button__header">
+                    Get a demo
+                </button>
+            </a>
+
+            <a ref="#!">
+                <button class="button__hiring">
+                    Hiring!
+                </button>
+            </a>
+        </div>
+    </article>
+    <h3 class="component__name">Dropdown Buttons</h3>
+    <article class="component__img">
+        <img src="img/dropdown-menu__button.png" width="334px" alt="dropdown menu button">
+    </article>
+
+    <div class="component__code">
+        <div class="dropdown__content">
+            <a href="#!"><img class="dropdown__img"
+                    src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb96a6a1f66e008a14dbe4a_orientation_icon.svg"
+                    alt="compass">
+                <div class="dropdown__text">
+                    <h4>OrientationKit</h4>
+                    <p>Tools to onboard your new students</p>
+                </div>
+            </a>
+        </div>
     </div>
 
+    <!--Card images and code-->
+    <section>
+        <h3 class="component__name"> Involvio: Card Study</h3>
+        <article class="component__img">
+            <img class="component__img" srcset="img/homepage-card.png 2x" src="img/homepage-card.png" alt="card">
+        </article>
+
+
+        <div class="component__code">
+            <div class="card">
+                <img class="card__img" srcset="img/compass.png 2x" src="img/compass.png" alt="compass">
+                <h3>OrientationKit</h3>
+                <p>Start your students out strong with comprehensive onboarding tools.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Dropdown-->
     <div class="menu-section">
+        <h3 class="component__name">Header: Drop Down Menus</h3>
+        <article class="component__img">
 
-        <nav class="dropdown">
-            <h3>Products <i class="fas fa-angle-down"></i></h3>
-            <div class="dropdown-content">
-                <a href="#"><img class="dropdown__img"
-                        src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb96a6a1f66e008a14dbe4a_orientation_icon.svg"
-                        alt="compass">
-                    <div class="dropdown__text">
-                        <h4>OrientationKit</h4>
-                        <p>Tools to onboard your new students</p>
-                    </div>
-                </a>
-
-                <a href="#"><img class="dropdown__img"
-                        src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb96a6b1f66e0e8f24dbe4b_campus_icon.svg"
-                        alt="weird green lightning bolt">
-                    <div class="dropdown__text">
-                        <h4>CampusKit</h4>
-                        <p>Put your campus in your students' hands</p>
-                    </div>
-                </a>
-
-                <a href="#"><img class="dropdown__img"
-                        src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb96a6b70d87af74007c5e4_attendance_icon.svg"
-                        alt="plus sign, apparently that means attendance">
-                    <div class="dropdown__text">
-                        <h4>AttendanceKit</h4>
-                        <p>Simple, powerful, and automated attendance tracking</p>
-                    </div>
-                </a>
-
-                <a href="#"><img class="dropdown__img"
-                        src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb96a6b70d87a04f207c5e6_retain_icon.svg"
-                        alt="person icon">
-                    <div class="dropdown__text">
-                        <h4>RetainAI</h4>
-                        <p>Modern student success tools powered by AI</p>
-                    </div>
-                </a>
-
-                <a href="#"><img class="dropdown__img"
-                        src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5da5376d1dba53d73d24a016_Frame%203.svg"
-                        alt="a mighty red shield">
-                    <div class="dropdown__text">
-                        <h4>SafetyKit</h4>
-                        <p>Deliver safety and security both on and off campus</p>
-                    </div>
-                </a>
-            </div>
-        </nav>
-
-        <nav class="dropdown">
-            <h3>Resources <i class="fas fa-angle-down"></i></h3>
-            <div class="dropdown-content">
-                <a href="#"><img class="dropdown__img"
-                        src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb7a2877fa9d20a0d5f5f3a_compliance.svg"
-                        alt="A checked Box">
-                    <div class="dropdown__text">
-                        <h4>Security</h4>
-                        <p>Enterprise-grade security</p>
-                    </div>
-                </a>
-
-                <a href="#"><img class="dropdown__img"
-                        src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb7a288afb714c66e34ebe9_departments.svg"
-                        alt="9 dots">
-                    <div class="dropdown__text">
-                        <h4>Blog</h4>
-                        <p>Actionable insights on higher ed tech</p>
-                    </div>
-                </a>
-
-            </div>
-        </nav>
-
-        <article class="component">
-            <h3>Header: Drop Down Menus</h3>
-            <img srcset="img/header-nav-bar__products.png 2x" src="img/header-nav-bar__products.png"
-                alt="Products Menu">
             <img srcset="img/header-nav-bar__products-active.png 2x" src="img/header-nav-bar__products-active.png"
                 alt="Products Active Menu">
         </article>
+
+        <div class="component__code">
+            <nav class="dropdown">
+                <h3>Products <i class="fas fa-angle-down"></i></h3>
+                <div class="dropdown-content">
+                    <a href="#"><img class="dropdown__img"
+                            src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb96a6a1f66e008a14dbe4a_orientation_icon.svg"
+                            alt="compass">
+                        <div class="dropdown__text">
+                            <h4>OrientationKit</h4>
+                            <p>Tools to onboard your new students</p>
+                        </div>
+                    </a>
+
+                    <a href="#"><img class="dropdown__img"
+                            src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb96a6b1f66e0e8f24dbe4b_campus_icon.svg"
+                            alt="weird green lightning bolt">
+                        <div class="dropdown__text">
+                            <h4>CampusKit</h4>
+                            <p>Put your campus in your students' hands</p>
+                        </div>
+                    </a>
+
+                    <a href="#"><img class="dropdown__img"
+                            src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb96a6b70d87af74007c5e4_attendance_icon.svg"
+                            alt="plus sign, apparently that means attendance">
+                        <div class="dropdown__text">
+                            <h4>AttendanceKit</h4>
+                            <p>Simple, powerful, and automated attendance tracking</p>
+                        </div>
+                    </a>
+
+                    <a href="#"><img class="dropdown__img"
+                            src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb96a6b70d87a04f207c5e6_retain_icon.svg"
+                            alt="person icon">
+                        <div class="dropdown__text">
+                            <h4>RetainAI</h4>
+                            <p>Modern student success tools powered by AI</p>
+                        </div>
+                    </a>
+
+                    <a href="#"><img class="dropdown__img"
+                            src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5da5376d1dba53d73d24a016_Frame%203.svg"
+                            alt="a mighty red shield">
+                        <div class="dropdown__text">
+                            <h4>SafetyKit</h4>
+                            <p>Deliver safety and security both on and off campus</p>
+                        </div>
+                    </a>
+                </div>
+            </nav>
+
+            <nav class="dropdown">
+                <h3>Resources <i class="fas fa-angle-down"></i></h3>
+                <div class="dropdown-content">
+                    <a href="#"><img class="dropdown__img"
+                            src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb7a2877fa9d20a0d5f5f3a_compliance.svg"
+                            alt="A checked Box">
+                        <div class="dropdown__text">
+                            <h4>Security</h4>
+                            <p>Enterprise-grade security</p>
+                        </div>
+                    </a>
+
+                    <a href="#"><img class="dropdown__img"
+                            src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb7a288afb714c66e34ebe9_departments.svg"
+                            alt="9 dots">
+                        <div class="dropdown__text">
+                            <h4>Blog</h4>
+                            <p>Actionable insights on higher ed tech</p>
+                        </div>
+                    </a>
+
+                </div>
+            </nav>
+        </div>
+        <h2 class="component__title">Full Header</h2>
+        <a href="#!">
+            <aside class="aside">Learn more about the new Involvio Remote Campus <i
+                    class="fas fa-long-arrow-alt-right"></i>
+            </aside>
+        </a>
+
+        <header class="header">
+            <div class="header__container">
+                <div class="header__logo">
+                    <h1><img class="main_logo"
+                            src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5b7e685824b7d2b4b847e0af_top-logo.svg"
+                            alt="dark_logo"></h1>
+                    <button class="button__hiring">
+                        <a ref="#!">Hiring!</a>
+                    </button>
+                </div>
+
+                <div class="dropdown__div">
+                    <nav class="dropdown">
+                        <h3>Products <i class="fas fa-angle-down"></i></h3>
+                        <div class="dropdown-content">
+                            <a href="#"><img class="dropdown__img"
+                                    src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb96a6a1f66e008a14dbe4a_orientation_icon.svg"
+                                    alt="compass">
+                                <div class="dropdown__text">
+                                    <h4>OrientationKit</h4>
+                                    <p>Tools to onboard your new students</p>
+                                </div>
+                            </a>
+
+                            <a href="#"><img class="dropdown__img"
+                                    src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb96a6b1f66e0e8f24dbe4b_campus_icon.svg"
+                                    alt="weird green lightning bolt">
+                                <div class="dropdown__text">
+                                    <h4>CampusKit</h4>
+                                    <p>Put your campus in your students' hands</p>
+                                </div>
+                            </a>
+
+                            <a href="#"><img class="dropdown__img"
+                                    src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb96a6b70d87af74007c5e4_attendance_icon.svg"
+                                    alt="plus sign, apparently that means attendance">
+                                <div class="dropdown__text">
+                                    <h4>AttendanceKit</h4>
+                                    <p>Simple, powerful, and automated attendance tracking</p>
+                                </div>
+                            </a>
+
+                            <a href="#"><img class="dropdown__img"
+                                    src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb96a6b70d87a04f207c5e6_retain_icon.svg"
+                                    alt="person icon">
+                                <div class="dropdown__text">
+                                    <h4>RetainAI</h4>
+                                    <p>Modern student success tools powered by AI</p>
+                                </div>
+                            </a>
+
+                            <a href="#"><img class="dropdown__img"
+                                    src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5da5376d1dba53d73d24a016_Frame%203.svg"
+                                    alt="a mighty red shield">
+                                <div class="dropdown__text">
+                                    <h4>SafetyKit</h4>
+                                    <p>Deliver safety and security both on and off campus</p>
+                                </div>
+                            </a>
+                        </div>
+                    </nav>
+
+                    <nav class="dropdown">
+                        <h3>Resources <i class="fas fa-angle-down"></i></h3>
+                        <div class="dropdown-content">
+                            <a href="#"><img class="dropdown__img"
+                                    src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb7a2877fa9d20a0d5f5f3a_compliance.svg"
+                                    alt="A checked Box">
+                                <div class="dropdown__text">
+                                    <h4>Security</h4>
+                                    <p>Enterprise-grade security</p>
+                                </div>
+                            </a>
+
+                            <a href="#"><img class="dropdown__img"
+                                    src="https://assets.website-files.com/5b6919571e6e11617205ad0a/5cb7a288afb714c66e34ebe9_departments.svg"
+                                    alt="9 dots">
+                                <div class="dropdown__text">
+                                    <h4>Blog</h4>
+                                    <p>Actionable insights on higher ed tech</p>
+                                </div>
+                            </a>
+
+                        </div>
+                    </nav>
+                </div>
+
+                <div class="header__admin-demo">
+                    <a class="admin-login" href="#!">Admin Login</a>
+
+                    <a ref="#!">
+                        <button class="button__header">
+                            Get a demo
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </header>
+
     </div>
+    <h2 class="component__title">Full Footer</h2>
     <footer>
         <div class="container">
             <section class="footer__top">
@@ -313,6 +354,7 @@
                 </div>
             </section>
         </div>
+
 
         <section class="footer__bottom">
             <div class="container">
