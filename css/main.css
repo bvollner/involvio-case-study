@@ -30,7 +30,7 @@ html {
   }
 
   h1, h2 {
-      font-size: 2.5rem;
+      font-size: 2.25rem;
       font-weight: bold;
       letter-spacing: -.04rem;
       margin: 0;
@@ -157,8 +157,7 @@ html {
       padding: 0;
   }
   .hero__text{
-      margin: 12rem 0 12rem 11rem;
-      
+      margin: 12rem 0 12rem 11rem;   
       max-width: 35rem;
       text-align: left;
     padding: 0;
@@ -180,7 +179,7 @@ html {
       grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   .cards h2{
-      margin: 2rem 0 3.5rem 0;
+      margin: 2rem 0 4rem 0;
   }
 /* cards */
   
@@ -211,6 +210,28 @@ html {
     line-height: 1.5;
     padding-left: 0;
 }
+/* client section */
+.clients{
+  background-color: var(--lt-gray);
+  padding: 6rem 0;
+}
+.clients h3{
+  font-size: 14px;
+  font-weight: 300;
+  padding-bottom: .75rem;
+}
+.clients__flat-list{
+  margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    max-width: 55rem;
+}
+.clients__flat-list img{
+  max-height: 30px;
+}
+/* buttons */
 .button{
     background-color: var(--green);
     color: var(--teal);
@@ -408,8 +429,8 @@ html {
 
 /* footer css */
 .footer__top{
-    margin-top: 4rem;
-    margin-bottom: 8rem;
+  margin-top: 3rem;
+  margin-bottom: 8rem;
 }
 .footer__grid{
     text-align: left;
@@ -418,7 +439,7 @@ html {
     grid-gap: 1rem;
 }
 .footer__text p{
-    margin: .25rem 2.25rem 1rem 0;
+    margin: .25rem 5rem 1rem 0;
     padding: 0;
     width: 300px;
     font-weight: 300;
@@ -426,19 +447,24 @@ html {
     line-height: 1.67;
     color: var(--lt-teal)
 }
+.footer__text img{
+  margin-top: 1.25rem;
+}
 .footer__lists{
     display:flex;
     align-items: space-between;
 }
 .lists{
-    margin-right: 6rem;
+    margin-right: 10rem;
 }
 .lists h3{
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
 }
 .lists li{
-    line-height: 1.25;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.67;
 }
 .lists a{
     color: var(--teal)
