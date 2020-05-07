@@ -456,6 +456,7 @@ html {
 @media (max-width: 60rem) { 
     .footer__grid {
     max-width: 35rem;
+    padding: 2rem;
     display: block;}
     }
     
