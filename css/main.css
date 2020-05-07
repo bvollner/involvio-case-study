@@ -22,7 +22,7 @@ html {
     font-family: 'Work Sans', sans-serif;
       font-weight: 300;
       letter-spacing: -.02rem;
-      font-size: 12px;
+      font-size: 14px;
       color: var(--teal);
       line-height: 1.667;
       text-align: center;
@@ -30,8 +30,9 @@ html {
   }
 
   h1, h2 {
-      font-size: 2rem;
+      font-size: 2.5rem;
       font-weight: bold;
+      letter-spacing: -.04rem;
       margin: 0;
       line-height: 1.2;
   }
@@ -44,7 +45,6 @@ html {
     padding: 0;
     line-height: 2;
     font-weight: 400;
-    font-size: 12px;
   }
   a {
       text-decoration: none;
@@ -56,6 +56,11 @@ html {
       padding: 0;
   }
 
+  .container{
+    max-width: 55rem;
+    margin: 0 auto;
+    
+}
 /* component dividers */ 
 
   .component {
@@ -137,17 +142,40 @@ html {
       background-color:#58a480;
   }
 
-  .hero__text{
-      max-width: 25rem;
+  /* hero section */
+
+  .hero{
+      background-image: linear-gradient(to bottom left, rgba(107, 190, 150, 1), rgba(255, 255, 255, 1));
+      display: flex;
+      justify-items: center;
+      align-items: center;
       margin: 0 auto;
+  }
+  .hero img{
+      margin-top: 0;
+      margin-right: 6rem;
+      padding: 0;
+  }
+  .hero__text{
+      margin: 12rem 0 12rem 11rem;
+      
+      max-width: 35rem;
       text-align: left;
     padding: 0;
   }
   .hero__text p{
       padding-left:0;
       padding-top: 2rem;
-      max-width:20rem;
+      line-height: 1.75;
+      font-size: 16px;
+      font-weight: 300;
   }
+
+  /* cards section **** card css below ****/
+  .cards h2{
+      margin: 2rem 0 3.5rem 0;
+  }
+/* cards */
   
   .card{
     margin: 0 auto;
@@ -173,20 +201,18 @@ html {
 .button{
     background-color: var(--green);
     color: var(--teal);
-    font-size: 14px;
-    width: 180px;
-    height: 50px;
-    padding: 15px 20px;
+    font-size: 18px;
+    padding: 20px 60px;
     border-radius: 4px;
     text-align: center;
     font-weight: 600;
+    margin: 2.5rem 0;
 }
 
 .button__header{
     background-color: var(--gray);
     color: var(--teal);
     font-size: 14px;
-    width: 150px;
     padding: 10px 35px;
     border-radius: 4px;
     text-align: center;
@@ -240,6 +266,11 @@ html {
     position: relative;
     display: inline-block;
     margin: 0 20px;
+  }
+  
+  .dropdown h3{
+      font-size: 16px;
+      font-weight: 400;
   }
   
   /* Dropdown Content (Hidden by Default) */
@@ -320,12 +351,16 @@ html {
     position: sticky;
     top: 0; 
 }
+
+.header .button__header{
+    margin: 1.25rem 1.5rem 1.25rem 0;
+}
 .header__container{
     max-width: 100%;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    padding: 15px 5px 3px 5px;
+
 }
 
 .header__container .admin-login{
@@ -339,6 +374,7 @@ html {
 
 .header__container .header__logo{
     align-self: flex-end;
+    padding-bottom: 1rem;
     order: 2;
 }
 
@@ -358,11 +394,6 @@ html {
 }
 
 /* footer css */
-.container{
-    max-width: 55rem;
-    margin: 0 auto;
-    
-}
 .footer__top{
     margin-top: 4rem;
     margin-bottom: 8rem;
@@ -454,6 +485,15 @@ html {
     padding-top: 30px;
 }
 @media (max-width: 60rem) { 
+    .hero{
+        display:block;
+        padding: 2rem auto;
+    }
+    .hero__text{
+        padding: 2rem;
+        margin: 2rem auto;
+        text-align: center;
+    }
     .footer__grid {
     max-width: 35rem;
     padding: 2rem;
