@@ -553,6 +553,14 @@ html {
     display: block;}
     }
 
+    .footer__lists{
+      max-width: 35rem;
+    }
+
+    .footer__lists .lists{
+      margin-right: 3rem
+    }
+
 @media (max-width: 35rem) {
 .cards__container{ 
     display: grid;
