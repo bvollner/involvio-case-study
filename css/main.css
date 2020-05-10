@@ -231,6 +231,7 @@ html {
 .button{
     background-color: var(--green);
     color: var(--teal);
+    display: inline-block;
     font-size: 18px;
     padding: 20px 60px;
     border-radius: 4px;
@@ -257,14 +258,14 @@ html {
     width: 45px;
     font-weight: 600;
     font-size: 10px;
-    padding: 2px 1.5px;
+    padding: 1.5px;
     text-align: center;
     border-radius: 4px;
 }
 .button__hiring a{
   color: var(--white)
 }
-.AIcontact i{
+.AIcontact{
 width: 150px;
 }
  /* This addition is for the sake of the component page */
@@ -409,7 +410,7 @@ width: 150px;
 
 .header__container .header__logo{
     align-self: flex-end;
-    padding-bottom: 1rem;
+    padding-bottom: .75rem;
     order: 2;
 }
 
@@ -424,7 +425,7 @@ width: 150px;
 
 .header__logo .button__hiring{
     position: absolute;
-  top: -10%;
+  top: -15%;
   left: 85%;
 }
 
@@ -458,7 +459,7 @@ width: 150px;
     align-items: space-between;
 }
 .lists ul{
-    margin-right: 6rem;
+    margin-right: 5rem;
 }
 .lists h3{
     font-size: 18px;
