@@ -194,10 +194,6 @@ html {
     padding: 30px 30px 40px 30px;
 }
 
-.card a{
-    color: var(--teal);
-}
-
 .card h3{
     letter-spacing: normal;
     font-size: 18px;
@@ -261,11 +257,16 @@ html {
     width: 45px;
     font-weight: 600;
     font-size: 10px;
-    padding: 1.5px;
+    padding: 2px 1.5px 3px 1.5px;
     text-align: center;
     border-radius: 4px;
 }
-
+.button__hiring a{
+  color: var(--white)
+}
+.AIcontact i{
+width: 150px;
+}
  /* This addition is for the sake of the component page */
  .dropdown__content{
     display: inline-block;
@@ -435,11 +436,12 @@ html {
 .footer__grid{
     text-align: left;
     display: grid;
+    justify-content: space-around;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
 }
 .footer__text p{
-    margin: .25rem 5rem 1rem 0;
+    margin: .25rem 3rem 1rem 0;
     padding: 0;
     width: 300px;
     font-weight: 300;
@@ -452,10 +454,11 @@ html {
 }
 .footer__lists{
     display:flex;
+    justify-items: center;
     align-items: space-between;
 }
-.lists{
-    margin-right: 10rem;
+.lists ul{
+    margin-right: 6rem;
 }
 .lists h3{
     font-size: 18px;
@@ -568,5 +571,10 @@ html {
     grid-gap: 1rem;
 }
 }
-    
-
+.bg-radial-gradient {
+  background: radial-gradient(circle, white 75%, var(--lt-gray) 25%);
+  margin: 0px auto;
+  padding-bottom: 50px;
+	background-size: 100%;
+	background-repeat: no-repeat;	
+}
