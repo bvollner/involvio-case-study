@@ -266,7 +266,17 @@ html {
   color: var(--white)
 }
 .AIcontact{
-width: 150px;
+position: fixed;
+right: 1rem;
+bottom: 1rem;
+background-color: var(--dk-green);
+padding: 12px 15px 8px 15px;
+border-radius: 50%;
+max-width: 80px;
+box-shadow: 0 0 10px 10px rgba(0,0,0, .05);
+}
+.AIcontact img{
+  width: 30px;
 }
  /* This addition is for the sake of the component page */
  .dropdown__content{
