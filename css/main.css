@@ -581,7 +581,40 @@ box-shadow: 0 0 10px 10px rgba(0,0,0, .05);
     grid-template-columns: 1fr;
     grid-gap: 1rem;
 }
+.card{
+  display:flex;
+  align-content: center;
+  justify-content: center;
+  max-width:400px;
+  text-align: left;
+  padding: 30px 30px 40px 30px;;
 }
+.card h3{
+  margin: 0 auto;
+}
+.card img{
+  padding-right: 30px;
+  align-self: center;
+}
+.footer__lists{
+  max-width: 35rem;
+}
+
+.footer__lists .lists{
+  margin-right: .5rem
+}
+}
+/*  .card{
+    margin: 0 auto;
+    border: 2px solid var(--lt-gray);
+    max-width: 250px;
+    text-align: center;
+    color: var(--color-teal);
+    border-radius: 12px;
+    box-shadow: 8px 8px 6px rgba(244,244,244, .6);
+    padding: 30px 30px 40px 30px;
+}
+****** trying to create the rounded background behind the cards*****
 .bg-radial-gradient {
   background: radial-gradient(circle, white 75%, var(--lt-gray) 25%);
   margin: 0px auto;
@@ -589,3 +622,4 @@ box-shadow: 0 0 10px 10px rgba(0,0,0, .05);
 	background-size: 100%;
 	background-repeat: no-repeat;	
 }
+*/
